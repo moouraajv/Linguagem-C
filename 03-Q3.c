@@ -12,7 +12,7 @@ int main()
     scanf("%d", &y);
     quociente = x / y;
     resto = x % y;
-    printf("O quociente da divis„o entre %d \n| e %d = %d e o resto = %d \n", x, y, quociente, resto);
+    printf("O quociente da divis√£o entre %d \n| e %d = %d e o resto = %d \n", x, y, quociente, resto);
     system("pause");
     return 0;
 }
