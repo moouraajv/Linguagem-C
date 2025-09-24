@@ -9,10 +9,10 @@ int main()
     int valor1, valor2, adicao, subtracao, multiplicacao, opcao;
     float divisao;
     
-    printf("Digite 2 valores válidos abaixo. \n");
+    printf("Digite 2 valores vÃ¡lidos abaixo. \n");
     if (scanf("%d %d", &valor1, &valor2) != 2)
     {
-        printf("Você digitou um valor inválido. Tente novamente. \n");
+        printf("VocÃª digitou um valor invÃ¡lido. Tente novamente. \n");
         return 1;
     }
 
