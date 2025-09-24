@@ -9,10 +9,10 @@ int main()
     int valor;
     char resto;
 
-    printf("Digite um valor inteiro válido: ");
+    printf("Digite um valor inteiro vÃ¡lido: ");
     if (scanf("%d%c", &valor, &resto) != 2 || resto != '\n')
     {
-        printf("Você não digitou um valor inteiro válido, tente novamente.\n");
+        printf("VocÃª nÃ£o digitou um valor inteiro vÃ¡lido, tente novamente.\n");
         return 1;
     }
 
@@ -21,10 +21,10 @@ int main()
         printf("O valor %d = 0 \n", valor);
     } else if (valor > 0)
     {
-        printf("O valor %d é positivo \n", valor);
+        printf("O valor %d Ã© positivo \n", valor);
     } else
     {
-        printf("O valor %d é negativo \n", valor);
+        printf("O valor %d Ã© negativo \n", valor);
     }
         
     system("pause");
