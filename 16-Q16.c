@@ -9,20 +9,20 @@ int main()
     int valor, positivo;
     char resto;
 
-    printf("Digite um valor inteiro válido: ");
+    printf("Digite um valor inteiro vÃ¡lido: ");
     if (scanf("%d%c", &valor, &resto) != 2 || resto != '\n')
     {
-        printf("Você não digitou um valor válido, tente novamente. \n");
+        printf("VocÃª nÃ£o digitou um valor vÃ¡lido, tente novamente. \n");
         return 1;
     }
 
     if (valor >= 0)
     {
-        printf("%d É um valor positivo. \n", valor);
+        printf("%d Ã‰ um valor positivo. \n", valor);
     } else
     {
        positivo = valor * -1;
-       printf("O valor que era %d agora é %d. \n", valor, positivo);
+       printf("O valor que era %d agora Ã© %d. \n", valor, positivo);
     }
 
     system("pause");
