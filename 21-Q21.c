@@ -9,10 +9,10 @@ int main()
     int lado1, lado2, lado3;
     char resto;
 
-    printf("Digite 3 valores v·lidos abaixo para verificar que tipo de tri‚ngulo. \n");
+    printf("Digite 3 valores v√°lidos abaixo para verificar que tipo de tri√¢ngulo. \n");
     if (scanf("%d%d%d%c", &lado1, &lado2, &lado3, &resto) != 4 || resto != '\n')
     {
-        printf("VocÍ digitou um valor inv·lido, tente novamente. \n");
+        printf("Voc√™ digitou um valor inv√°lido, tente novamente. \n");
         return 1;
     }
 
@@ -24,22 +24,22 @@ int main()
 
     if ((lado1 < lado2 + lado3) && (lado2 < lado1 + lado3) && (lado3 < lado1 + lado2))
     {
-        printf("Os 3 valores podem ser lados de um tri‚ngulo.\n");
+        printf("Os 3 valores podem ser lados de um tri√¢ngulo.\n");
         if (lado1 == lado2 && lado2 == lado3)
         {
-            printf("Formam um tri‚ngulo equil·tero.\n");
+            printf("Formam um tri√¢ngulo equil√°tero.\n");
         }
         else if (lado1 == lado2 || lado1 == lado3 || lado2 == lado3)
         {
-            printf("Formam um tri‚ngulo isÛsceles.\n");
+            printf("Formam um tri√¢ngulo is√≥sceles.\n");
         } else
         {
-            printf("Formam um tri‚ngulo escaleno.\n");
+            printf("Formam um tri√¢ngulo escaleno.\n");
         }
     }
     else
     {
-        printf("Os 3 valores n„o podem ser lados de um tri‚ngulo.\n");
+        printf("Os 3 valores n√£o podem ser lados de um tri√¢ngulo.\n");
     }
 
     system("pause");
