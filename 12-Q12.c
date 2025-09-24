@@ -11,14 +11,14 @@ int main()
     media_aritmetica = (x + y + z) / 3;
     media_aritmetica2 = (a + b + c) / 3;
 
-    printf("A média aritmética de %.1f, %.1f e %.1f = %.1f \n", x, y, z, media_aritmetica);
-    printf("A média aritmética de %.1f, %.1f e %.1f = %.1f \n", a, b, c, media_aritmetica2);
+    printf("A mÃ©dia aritmÃ©tica de %.1f, %.1f e %.1f = %.1f \n", x, y, z, media_aritmetica);
+    printf("A mÃ©dia aritmÃ©tica de %.1f, %.1f e %.1f = %.1f \n", a, b, c, media_aritmetica2);
 
     soma = media_aritmetica + media_aritmetica2;
     media = soma / 2;
 
-    printf("A soma das 2 médias %.1f e %.1f = %.1f \n", media_aritmetica, media_aritmetica2, soma);
-    printf("A média das 2 médias %.1f e %.1f e = %.1f \n", media_aritmetica, media_aritmetica2, media);
+    printf("A soma das 2 mÃ©dias %.1f e %.1f = %.1f \n", media_aritmetica, media_aritmetica2, soma);
+    printf("A mÃ©dia das 2 mÃ©dias %.1f e %.1f e = %.1f \n", media_aritmetica, media_aritmetica2, media);
 
     system("pause");
     return 0;
