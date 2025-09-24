@@ -9,19 +9,19 @@ int main()
     double salario_fixo, total_venda, comissao, salario_final;
     const double taxa_comissao = 0.15;
     
-    printf("Informe o salário fixo: ");
+    printf("Informe o salÃ¡rio fixo: ");
     scanf("%lf", &salario_fixo);
 
-    printf("Informe o valor do total de vendas do mês: ");
+    printf("Informe o valor do total de vendas do mÃªs: ");
     scanf("%lf", &total_venda);
     
     comissao = taxa_comissao * total_venda;
     salario_final = salario_fixo + comissao;
 
     printf("\n");
-    printf("Valor do Salário fixo = R$%.2f \n", salario_fixo);
-    printf("Valor da comissão = R$%.2f \n", comissao);
-    printf("Valor do salário final do mês = R$%.2f \n", salario_final);
+    printf("Valor do SalÃ¡rio fixo = R$%.2f \n", salario_fixo);
+    printf("Valor da comissÃ£o = R$%.2f \n", comissao);
+    printf("Valor do salÃ¡rio final do mÃªs = R$%.2f \n", salario_final);
     system("pause");
     return 0;
 }
