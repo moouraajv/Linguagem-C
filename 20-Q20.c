@@ -9,16 +9,16 @@ int main()
     int valor1, valor2, valor3, maior, menor;
     char resto;
 
-    printf("Digite 3 valores válidos abaixo. \n");
+    printf("Digite 3 valores vÃ¡lidos abaixo. \n");
     if (scanf("%d%d%d%c", &valor1, &valor2, &valor3, &resto) != 4 || resto != '\n')
     {
-        printf("Você digitou um valor inválido, tente novamente. \n");
+        printf("VocÃª digitou um valor invÃ¡lido, tente novamente. \n");
         return 1;
     }
 
     if (valor1 == valor2 && valor1 == valor3)
     {
-        printf("Você digitou 3 valores iguais. \n");
+        printf("VocÃª digitou 3 valores iguais. \n");
     }
 
     else if (valor1 >= valor2 && valor1 >= valor3)
