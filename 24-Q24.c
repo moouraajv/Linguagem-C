@@ -27,7 +27,7 @@ int main()
     printf("Digite o consumo em kWh: ");
     if (scanf("%f", &consumo) != 1 || consumo < 0)
     {
-        printf("Você digitou um valor inválido para consumo. \n");
+        printf("VocÃª digitou um valor invÃ¡lido para consumo. \n");
         return 1;
     }
 
@@ -45,7 +45,7 @@ int main()
     }
     else
     {
-        printf("Classe Consumidora inválida. Digite apenas A, B ou C. \n");
+        printf("Classe Consumidora invÃ¡lida. Digite apenas A, B ou C. \n");
         return 1;
     }
 
