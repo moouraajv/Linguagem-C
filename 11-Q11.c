@@ -23,35 +23,35 @@ int main()
     valor_decimal = troco * 100;
 
     quantidade = valor_decimal / 20000;
-    printf("%d cédula(s) de R$ 200 \n", quantidade);
+    printf("%d cÃ©dula(s) de R$ 200 \n", quantidade);
     valor_decimal %= 20000;
 
     quantidade = valor_decimal / 10000;
-    printf("%d cédula(s) de R$ 100 \n", quantidade);
+    printf("%d cÃ©dula(s) de R$ 100 \n", quantidade);
     valor_decimal %= 10000;
 
     quantidade = valor_decimal / 5000;
-    printf("%d cédula(s) de R$ 50 \n", quantidade);
+    printf("%d cÃ©dula(s) de R$ 50 \n", quantidade);
     valor_decimal %= 5000;
 
     quantidade = valor_decimal / 2000;
-    printf("%d cédula(s) de R$ 20 \n", quantidade);
+    printf("%d cÃ©dula(s) de R$ 20 \n", quantidade);
     valor_decimal %= 2000;
 
     quantidade = valor_decimal / 1000;
-    printf("%d cédula(s) de R$ 10 \n", quantidade);
+    printf("%d cÃ©dula(s) de R$ 10 \n", quantidade);
     valor_decimal %= 1000;
 
     quantidade = valor_decimal / 500;
-    printf("%d cédula(s) de R$ 5 \n", quantidade);
+    printf("%d cÃ©dula(s) de R$ 5 \n", quantidade);
     valor_decimal %= 500;
 
     quantidade = valor_decimal / 200;
-    printf("%d cédula(s) de R$ 2 \n", quantidade);
+    printf("%d cÃ©dula(s) de R$ 2 \n", quantidade);
     valor_decimal %= 200;
 
     quantidade = valor_decimal / 100;
-    printf("%d cédula(s) de R$ 1 \n", quantidade);
+    printf("%d cÃ©dula(s) de R$ 1 \n", quantidade);
     valor_decimal %= 100;
 
     quantidade = valor_decimal / 50;
