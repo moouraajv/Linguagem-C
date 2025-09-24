@@ -6,7 +6,7 @@ int main()
 {
     setlocale(LC_ALL, "");
     float centimetro, conversor, polegada = 2.54;
-    printf("Informe o número em centímetros: ");
+    printf("Informe o nÃºmero em centÃ­metros: ");
     scanf("%f", &centimetro);
     conversor = centimetro / polegada;
     printf("Convertendo %.2fcm para polegadas \n| fica aproximadamente = %.2f pol \n", centimetro, conversor);
