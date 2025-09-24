@@ -12,9 +12,9 @@ int main()
     quociente = x / y;
     printf("Resultado da soma entre %d \n| e %d = %d \n", x, y, soma);
     printf("\n");
-    printf("O Produto da multiplicaÁ„o = %d \n", produto);
+    printf("O Produto da multiplica√ß√£o = %d \n", produto);
     printf("\n");
-    printf("O Quociente da divis„o = %.2f \n", quociente);
+    printf("O Quociente da divis√£o = %.2f \n", quociente);
     system("pause");
     return 0;
 }
