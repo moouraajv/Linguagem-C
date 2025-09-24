@@ -6,12 +6,12 @@ int main()
 {
     setlocale(LC_ALL, "");
     int numero, antecessor, sucessor;
-    printf("Digite um número: ");
+    printf("Digite um nÃºmero: ");
     scanf("%d", &numero);
     antecessor = numero - 1;
     sucessor = numero + 1;
-    printf("Antecessor do número %d = %d \n", numero, antecessor);
-    printf("Sucessor do número %d = %d \n", numero, sucessor);
+    printf("Antecessor do nÃºmero %d = %d \n", numero, antecessor);
+    printf("Sucessor do nÃºmero %d = %d \n", numero, sucessor);
     system("pause");
     return 0;
 }
