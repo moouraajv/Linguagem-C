@@ -9,10 +9,10 @@ int main()
     
     double a, b, c, x1, x2, discriminante;
 
-    printf("Digite valores de A, B e C para calcular as raízes de uma equação do 2º Grau: \n");
+    printf("Digite valores de A, B e C para calcular as raÃ­zes de uma equaÃ§Ã£o do 2Âº Grau: \n");
     if (scanf("%lf %lf %lf", &a, &b, &c) != 3)
     {
-        printf("Você digitou um valor inválido. Tente novamente. \n");
+        printf("VocÃª digitou um valor invÃ¡lido. Tente novamente. \n");
         return 1;
     }
 
@@ -22,41 +22,41 @@ int main()
         {
             if (c == 0)
             {
-                printf("Equação indeterminada. \n");
+                printf("EquaÃ§Ã£o indeterminada. \n");
                 return 0;
             } else
             {
-                printf("Equação impossível. \n");
+                printf("EquaÃ§Ã£o impossÃ­vel. \n");
                 return 0;
             }
         } 
         else
         {
             x1 = -c / b;
-            printf("Você informou A = %.2f, B = %.2f e C = %.2f \n", a, b, c);
-            printf("Você obteve apenas uma raiz real que foi calculada em uma equação do 1º grau que é = %.2f \n", x1);
+            printf("VocÃª informou A = %.2f, B = %.2f e C = %.2f \n", a, b, c);
+            printf("VocÃª obteve apenas uma raiz real que foi calculada em uma equaÃ§Ã£o do 1Âº grau que Ã© = %.2f \n", x1);
             return 0;
         }    
     }
 
     if (a != 0)
     {
-        printf("Você informou A = %.2f, B = %.2f e C = %.2f \n", a, b, c);
+        printf("VocÃª informou A = %.2f, B = %.2f e C = %.2f \n", a, b, c);
         discriminante = (b * b) - (4 * (a * c));
         if (discriminante < 0)
         {
-            printf("Não existem raízes reais. \n");
+            printf("NÃ£o existem raÃ­zes reais. \n");
         }
         else if (discriminante == 0)
         {
             x1 = -b / (2 * a);
-            printf("Há duas soluções iguais com uma raíz única: %.2f. \n", x1);
+            printf("HÃ¡ duas soluÃ§Ãµes iguais com uma raÃ­z Ãºnica: %.2f. \n", x1);
         }
         else if (discriminante > 0)
         {
             x1 = (-b + sqrt(discriminante)) / (2 * a);
             x2 = (-b - sqrt(discriminante)) / (2 * a);
-            printf("Há duas soluções reais e diferentes: %.2f e %.2f. \n", x1, x2);
+            printf("HÃ¡ duas soluÃ§Ãµes reais e diferentes: %.2f e %.2f. \n", x1, x2);
         }
     }    
 
